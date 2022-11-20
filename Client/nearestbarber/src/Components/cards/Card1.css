@@ -1,0 +1,66 @@
+.card1{
+   width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin: 10px;overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.card1:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.card1 .c1{
+    display: flex;
+    justify-content: center;
+}
+.card1 .c1 p{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 70, 70);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.card1 .c2{
+    display: flex;
+    justify-content: center;
+}
+.card1 .c2 p{
+    font-size: 17px;
+    padding: 5px;
+    color: #000;
+}
+.card1 .c3{
+    display: flex;
+    justify-content: space-between;
+}
+.card1 .c3 p{
+    background-color: rgb(59,59,59);
+    width: 100%;
+    /* text-align: center; */
+    color: white;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+.card1 button{
+    /* margin-top: 10px; */
+    font-size: 17px;
+    padding: 5px;
+    background-color: rgb(255, 70, 70);
+    color: white;
+    border: none;
+}
+
+.card1 button:hover{
+    background-color: rgb(255, 37, 37);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

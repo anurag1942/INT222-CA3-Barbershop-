@@ -1,0 +1,33 @@
+.banner{
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.searchresult{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(250,79,79);
+    /* padding: 20px; */
+}
+
+.searchresultlist{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.searchresult h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
